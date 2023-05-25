@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.btn button{
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    border: none;
+    background-color: rgb(140, 161, 161);
+}
+.btn .clr{
+    background-color: tan;
+}
+.btn button:hover{
+    background-color: rgb(84, 112, 112);
+    color: white;
+    border: 1px solid rgb(77, 90, 90);
+    cursor: pointer;
+}
+.btn .clr:hover{
+    background-color:rgb(218, 157, 71);
+    border: 1px solid rgb(100, 60, 4);
+}
